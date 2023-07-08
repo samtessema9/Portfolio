@@ -8,9 +8,9 @@ import CodeIcon from '@mui/icons-material/Code';
 const Navbar = () => {
     return ( 
         <div id="navbar">
-            <CodeIcon />
-            <GitHubIcon />
-            <StorageIcon />
+            <CodeIcon className='icon' fontSize='large'/>
+            <GitHubIcon className='icon' fontSize='large'/>
+            <StorageIcon className='icon' fontSize='large'/>
         </div>
      );
 }

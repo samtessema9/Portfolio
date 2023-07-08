@@ -1,8 +1,15 @@
 
 #navbar {
+    height: 5em;
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
-    border: solid white 2px;
-    margin-bottom: auto;
+    align-items: center;
+    gap: 40px;
+    /* border: solid white 2px; */
+    margin-bottom: 13em;
+}
+
+.icon {
+    height: 5em !important;
+    color: white;
 }
