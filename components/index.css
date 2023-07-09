@@ -4,12 +4,32 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 40px;
+    gap: 2.5em;
     /* border: solid white 2px; */
     margin-bottom: 13em;
+    
+}
+
+#navbar a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: -1em;
+}
+
+#navbar p {
+    color: white;
+    margin-top: -5em;
 }
 
 .icon {
     height: 5em !important;
     color: white;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
