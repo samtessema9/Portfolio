@@ -38,7 +38,7 @@ const Home = () => {
                     <p>  I’m a software developer with a passion for innovative solutions and meaningful projects. Skilled in JavaScript, React, express and knowledgeable in developer tools such as git, GitHub and the UNIX cli. I’m seeking hands-on opportunities to collaborate on meaningful projects and continuously improve my skills. My technical skills coupled with my adaptable nature, strong problem-solving, and effective communication skills will make me an asset in the tech industry and on your team.</p>
                 </div>
                 <div id="img">
-                    <img src="../assets/profilepic1.jpg" />
+                    <img src="/profilepic1.jpg" />
                 </div>
             </div> 
             <h1 className='title' id="p-title">Projects</h1>
