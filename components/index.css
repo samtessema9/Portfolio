@@ -6,7 +6,7 @@
     align-items: center;
     gap: 2.5em;
     /* border: solid white 2px; */
-    margin-bottom: 13em;
+    margin-bottom: 12em;
     
 }
 
@@ -32,4 +32,58 @@
 .icon:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+#project {
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+    margin-bottom: 10em;
+}
+
+#project * {
+    margin: 0;
+}
+
+#project p {
+    align-self: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#project img {
+    width: 25em;
+    height: 14em;
+    border-radius: 0.5em;
+}
+
+#buttons {
+    margin-top: 1em;
+    display: flex;
+    gap: 2em;
+}
+
+#buttons button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2E;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding-bottom: 5em;
+    width: 68vw;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
 }
