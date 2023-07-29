@@ -25,7 +25,7 @@ const Home = () => {
             title: 'HappyHour',
             description: 'Happy Hour App is a user-friendly application that helps users discover and explore nearby happy hour deals at various bars and restaurants.',
             github: 'https://github.com/samtessema9/HappyHour',
-            site: ''
+            site: 'https://happyhour-hgnv.onrender.com/'
         }
     ]
 
